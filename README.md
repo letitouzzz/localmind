@@ -27,31 +27,31 @@ LocalMind est une interface unifiée qui route automatiquement tes questions ver
   ```
 
 Installation
-bash
+```bash
 
 git clone https://github.com/letitouzzz/localmind.git
 cd localmind
 make install
-
+  ```
 Copie le fichier d'environnement et ajoute ta clé API Tavily (optionnel) :
-bash
+```bash
 
 cp .env.example .env
 nano .env
-
+  ```
 Utilisation
 Interface graphique
-bash
+```bash
 
 make run-gui
-
+```
 Mode terminal
-bash
+```bash
 
 make run
-
+```
 Structure du projet
-text
+```text
 
 localmind/
 ├── src/
@@ -64,11 +64,11 @@ localmind/
 ├── requirements.txt
 ├── Makefile
 └── README.md
-
+```
 Licence
 
 MIT © Titouz
-text
+```text
 
 
 ## `LICENSE`
@@ -94,3 +94,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
